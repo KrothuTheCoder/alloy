@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.22.0](https://github.com/grafana/alloy/compare/v1.21.0...v1.22.0) (2026-10-21)
+
+
+### Features 🌟
+
+* **pyroscope.ebpf:** Update ebpf-profiler fork to upstream v0.0.202640 [backport] ([#7471](https://github.com/grafana/alloy/issues/7471)) ([00c795d](https://github.com/grafana/alloy/commit/00c795d9f88f20978fc61c88281255e8ee941570))
+
+
+### Bug Fixes 🐛
+
+* **prometheus.exporter.kafka:** Avoid panic on empty consumer group member assignment [backport] ([#7441](https://github.com/grafana/alloy/issues/7441)) ([9b6b80a](https://github.com/grafana/alloy/commit/9b6b80a0437a293069ce4d6a06e692c3d1fd0fba))
+* Update go version to 1.27.3 [backport] ([#7472](https://github.com/grafana/alloy/issues/7472)) ([88cfe69](https://github.com/grafana/alloy/commit/88cfe693521b490ef73ff953a907ff6b9ab50a10))
+
 ## [1.21.0](https://github.com/grafana/alloy/compare/v1.20.0...v1.21.0) (2026-10-16)
 
 
